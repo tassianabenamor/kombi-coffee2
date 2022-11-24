@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Kombi Coffee</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <link rel="stylesheet" href="reset.css" type="text/css">
+</head>
+<body>
+    <header>
+        <!--Logo-->
+        <div class="logo">
+            <img src="img/logo_kombi_coffee.png" alt="Desenho de um kombi dentro de umcírculo, envolta pelas palavras Kombi Coffe e dois grãos de café" title="Logotipo Kombi Coffee">
+        </div>
+
+        
+        <br>
+    
+        <nav>
+            <!--Menu-->
+            <a href="#">HOME</a> |
+            <a href="#">LOCAL</a> |
+            <a href="cardapio.html" title="Link para o cardápio">CARDÁPIO</a> |
+            <a href="#">EVENTOS</a> |
+            <a href="contato.html" title="Link para contatos">CONTATO</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>O café que chega até você</h1>
+        <!--Banner-->
+        <div class="banner">
+            <img src="img/banner.jpg" alt="Foto aproximada de uma xícara de café ao lado de grãos espalhados sobre a mesa" title="Banner de abertura com imagem de café">
+        </div>
+
+        <h2 class="cardapio">Cardápio</h2>
+
+        <div>
+            <h2>Formulário de contato</h2>
+            <p>Fale conosco pelo formuário abaixo!</p>
+        </div>
+
+        <br>
+
+            <form id="container-form"
+        action="https://formspree.io/f/xbjwalap"
+        method="POST"
+        >
+
+        <label id='form'>
+            <p id="form-text">Nome:</p>
+            <input type="email" required name="email">
+        </label>
+        <label id='form'>
+            <p id="form-text">E-mail</p>
+            <textarea required name="message"></textarea>
+        </label>
+        <label id='form'>
+            <p id="form-text">Comentários:</p>
+            <textarea required name="message"></textarea>
+        </label id='form'>
+        <button type="submit" id="btn-submit">Enviar</button>
+        </form>
+
+        <!--validar formulario com html5-->
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    background-color: #ffcc99;
+}
+
+h1, h2, h3{
+    color: #663333;
+    margin-bottom: 0.5em;
+    font-size: 2em;
+    font-family: 'Secular One', sans-serif;
+}
+
+p{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: #161B22;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+/* cardapio */
+/*
+.cardapio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    padding: 1em;
+    background-color: #ffcc99;
+}
+*/
+
+/* adicionando estilo ao cardapio */
+#table-cardapio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    padding: 1em;
+    background-color: #663333;
+}   
+
+/* adicionando estilo ao formulário */
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    padding: 1em;
+    background-color: #663333;
+    border: 3px solid #663333;
+}
+
+#form-text{
+    color: #ffcc99;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.5em;
+}
+
+#btn-submit{
+    display: flex;
+    align-items: center;
+    background-color: #663333;
+    border: 3px solid #663333;
+    color: #ffcc99;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.5em;
+
+}

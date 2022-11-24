@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Kombi Coffee</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <link rel="stylesheet" href="reset.css" type="text/css">
+</head>
+<body>
+    
+    <header>
+        <!--Logo-->
+        <div class="logo">
+            <img src="img/logo_kombi_coffee.png" alt="Desenho de um kombi dentro de umcírculo, envolta pelas palavras Kombi Coffe e dois grãos de café" title="Logotipo Kombi Coffee">
+        </div>
+
+        
+        <br>
+    
+        <nav>
+            <!--Menu-->
+            <a href="#">HOME</a> |
+            <a href="#">LOCAL</a> |
+            <a href="cardapio.html" title="Link para o cardápio">CARDÁPIO</a> |
+            <a href="#">EVENTOS</a> |
+            <a href="contato.html" title="Link para contatos">CONTATO</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>O café que chega até você</h1>
+        <!--Banner-->
+        <div class="banner">
+            <img src="img/banner.jpg" alt="Foto aproximada de uma xícara de café ao lado de grãos espalhados sobre a mesa" title="Banner de abertura com imagem de café">
+        </div>
+
+        <h2 class="cardapio">Cardápio</h2>
+
+        <!-- Início do cardápio 
+        <div id="cardapio">
+            <div id="item">
+                <h2>Café quente</h2>
+                <img src="img/cafe-quente.jpg" alt="Foto de um café em xícara branca" title="Café quente">
+            </div>
+        </div>
+        -->
+
+        <!-- criando carpadio utilizando table-->
+        <!-- o cardapio possui img, titulo, descrição e preço-->
+        <table id="table-cardapio">
+            <tr>
+                <th>Café quente</th>
+                <th>Cafés gelados</th>
+                <th>Café alcoólicos</th>
+                <th>Chocolates</th>
+            </tr>
+            <tr>
+                <td><img src="img/cafe-quente.jpg" alt="Foto de um café em xícara branca" title="Café quente"></td>
+                <td><img src="img/cafe-gelado.jpg" alt="Foto de um café em xícara branca" title="Café máximo"></td>
+                <td><img src="img/cafe-alcoolico.jpg" alt="Foto de um café em xícara branca" title="Café suco"></td>
+                <td><img src="img/chocolate.jpg" alt="Foto de um café em xícara branca" title="Café crema"></td>
+            </tr>
+            <!--descrição-->
+            <tr>
+                <td>Importamos grãos diretamente da Indonésia.</td>
+                <td>Nosso Frappuccino é famoso até na Itália!</td>
+                <td>Aproveite para se aquecer no inverno com nossos deliciosos cafés.</td>
+                <td>Mesmo que sua preferência não seja café, nós temos algo para você.</td>
+            </tr>
+
+            <!--preço-->
+            <tr>
+                <td>R$ 5,00</td>
+                <td>R$ 5,00</td>
+                <td>R$ 5,00</td>
+                <td>R$ 5,00</td>
+            </tr>
+
+       
+    <!--
+
+        <div class="categorias">
+                <h3>Foto</h3>
+                <h3>Descrição</h3>
+                <h3>Preço</h3>
+            </div>
+            
+        <div class="cardapio">
+            <div class="cardapio-item">
+                <img src="img/cafe-quente.jpg" alt="Foto de um café em xícara branca" title="Café quente">
+                <h3>Cafés quentes</h3>
+                <p>Importamos grãos diretamente da Indonésia.</p>
+                <p>R$5,00</p>
+            </div>
+
+            <div class="cardapio-item">
+                <img src="img/cafe-gelado.jpg" alt="Foto de bebida gelada a base de café" title="Cafés gelados">
+                <h3>Cafés gelados</h3>
+                <p>Nosso Frappuccino é famoso até na Itália!</p>
+                <p>R$10,00</p>
+            </div>
+
+            <div class="cardapio-item">
+                <img src="img/cafe-alcoolico.jpg" alt="Foto de bebida alcoólica a base de café" title="Cafés alcoólicos">
+                <h3>Cafés alcoólicos</h3>
+                <p>Aproveite para se aquecer no inverno com nossos deliciosos cafés.</p>
+                <p>R$10,00</p>
+            </div>
+
+            <div class="cardapio-item">
+                <img src="img/chocolate.jpg" alt="Foto de um chocolate quente" title="chocolate">
+                <h3>Chocolates</h3>
+                <p>O café capuccino é um dos cafés mais pedidos do mundo.</p>
+                <p>R$6,00</p>
+            </div>
+        </div>
+        -->
+
+</body>
+</html>
